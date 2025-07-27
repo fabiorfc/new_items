@@ -131,7 +131,7 @@ class DataAnalyzer:
 
     def identifying_inconsistent(self):
         """Function that marks the lines in the database for which the id is null"""
-        inconsistence_rule = data['id'].apply(lambda x: 'Inconsistent' if pd.isna(x) else 'Consistent')
+        inconsistence_rule = self.data['id'].apply(lambda x: 'Inconsistent' if pd.isna(x) else 'Consistent')
 
         self.data[f'inconsistence_rule'] = inconsistence_rule
 
