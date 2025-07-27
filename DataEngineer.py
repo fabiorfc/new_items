@@ -1,4 +1,3 @@
-!pip install optbinning
 from optbinning import OptimalBinning
 import warnings
 warnings.filterwarnings("ignore", message="'force_all_finite' was renamed to 'ensure_all_finite'")
