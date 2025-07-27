@@ -1,4 +1,6 @@
 from optbinning import OptimalBinning
+import pandas as pd
+import numpy as np
 import warnings
 warnings.filterwarnings("ignore", message="'force_all_finite' was renamed to 'ensure_all_finite'")
 warnings.filterwarnings("ignore", category=RuntimeWarning, message="invalid value encountered in log")
